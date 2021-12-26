@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="reset.css">  
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+<span id="menuInicial">
+    <img id="background" src="imagens/backPageCozinha.jpg">
+    <div class="textos">
+        <h1 id="titulo">SIMULADOR DE COZINHA 9000 v8.36!!!</h1>
+            <div class=introBox>
+            <p>Olá! Seja muito bem vindo ao <span style= font-style:italic;font-weight:500>SIMULADOR DE COZINHA 9000 v8.36.</span></p>
+            <p>Seu objetivo é acertar a sequencia de passos correta para terminar sua receita. Faça suas decisões pela caixa de texto superior, respondendo com o número da alternativa. Você terá 3 opções de dificuldade. </br> Escolha a receita que você mais gostar e boa sorte!</p>
+            </div>
+    </div>
+
+    <div id=caixasEscolhas>
+        <a href="bolo.html"><div class=escolhas id="e1">
+            <p id= nome style = font-size:38px;margin-top:21px>Brigadeiro</p>
+                <div id=borda>
+                    <img id=icon src="imagens/iconBrig.png"></div>
+            <p id= lvl>Nível</p>
+            <p id= diff>Fácil</p>
+        </div></a>
+        <div class=escolhas id="e2">
+            <p id= nome>Pizza</p>
+                <div id=borda><img id=icon src="imagens/iconPizza.png"></div>
+            <p id= lvl>Nível</p>
+            <p id= diff>Médio</p>
+        </div>
+        <div class=escolhas id="e3">
+            <p id= nome style = font-size:32px;margin-top:17px>Hambúrguer</p>
+                <div id=borda style = margin-top:18px><img id=icon src="imagens/iconHamburguer.png"></div>
+            <p id= lvl>Nível</p>
+            <p id= diff>Difícil!</p>
+        </div>
+    </div>
+</span>
+</body>
+<script src="script.js"></script>
+</html>
