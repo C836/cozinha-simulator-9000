@@ -11,7 +11,7 @@ document.onload = setTimeout(function () {
 
     fase1()
 
-}, 2000);
+}, 3000);
 
 function fase1(){
     setTimeout(function () {
@@ -30,7 +30,7 @@ function fase1(){
     } else {
         fase1()
     }
- }, 2000);
+ }, 3000);
 }
 
 function fase2(){
@@ -65,7 +65,7 @@ function fase2(){
     } else{
         fase2()
     }
- }, 2000);
+ }, 3000);
 }
 
 function fase3(){
@@ -100,7 +100,7 @@ function fase3(){
     } else{
         fase3()
     }
- }, 2000);
+ }, 3000);
 }
 
 function fim(){
