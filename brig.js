@@ -1,4 +1,3 @@
-
 document.onload = setTimeout(function () {
     alert('"OK" para continuar');
     document.getElementById("alternativas").style.display = "flex";
@@ -17,7 +16,7 @@ function fase1(){
     setTimeout(function () {
         var escolha = prompt("Digite sua alternativa (A, B ou C)");
 
-    if (escolha.toUpperCase() != "B".toUpperCase()){
+    if (escolha.toUpperCase() == "A".toUpperCase() || (escolha.toUpperCase() == "C".toUpperCase())){
         document.getElementById("fase").innerHTML = "FIM DE JOGO";
         document.getElementById("descricao").innerHTML = "Você chega em casa e percebe que está faltando um dos itens da lista. Já que você não tem tanta experiência na cozinha, decide deixar a ideia pra outro dia.";
         document.getElementById("alt1").style.display = "none";
@@ -74,7 +73,7 @@ function fase3(){
     document.getElementById("alt1").innerHTML = "A - Deixar descansar no freezer"
     document.getElementById("alt2").innerHTML = "B - Colocar num prato com margarina e deixar esfriar"
     document.getElementById("alt3").innerHTML = "C - Começar a enrolar os docinhos"
-    document.getElementById("imagem").src="imagens/c4.jpg"
+    document.getElementById("imagem").src="imagens/c4.png"
 
     setTimeout(function () {
         var escolha3 = prompt("Digite sua alternativa (A, B ou C)");
