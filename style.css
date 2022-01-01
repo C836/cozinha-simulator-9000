@@ -181,6 +181,7 @@ a{
     height: 45vh;
 }
 #burgCamadas{
+    display: none;
     margin-top: 18%;
 }
 .item{
