@@ -175,4 +175,16 @@ a{
 #voltar{
     display: none;
 }
-
+#burgCamadas{
+    display: none;
+    margin:10px;
+    height: 45vh;
+}
+#burgCamadas{
+    margin-top: 18%;
+}
+.item{
+    position: relative;
+    margin: -11.5% auto;
+    width: 30%;
+}
