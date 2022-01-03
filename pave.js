@@ -77,7 +77,7 @@ function fase3(){
     setTimeout(function () {
         var escolha3 = prompt("Digite sua alternativa (A, B ou C)");
 
-    if (escolha3.toUpperCase() == "A".toUpperCase() || escolha3.toUpperCase() == "B".toUpperCase()){
+    if (escolha3.toUpperCase() == "A".toUpperCase()){
         document.getElementById("fase").innerHTML = "FIM DE JOGO";
         document.getElementById("descricao").innerHTML = "O chocolate não faze parte da massa nessa receita!";
         document.getElementById("alt1").style.display = "none";
@@ -85,9 +85,9 @@ function fase3(){
         document.getElementById("alt3").style.display = "none";
         document.getElementById("voltar").style.display = "block";
         document.getElementById("imagem").src="imagens/af4.png"}
-    if (escolha3.toUpperCase() == "C".toUpperCase() || escolha3.toUpperCase() == "B".toUpperCase()){
+    else if (escolha3.toUpperCase() == "C".toUpperCase()){
         document.getElementById("fase").innerHTML = "FIM DE JOGO";
-        document.getElementById("descricao").innerHTML = "Você acaba esquecendo p creme no fogo, que acaba queimando. Você decide deixar a ideia pra outro dia.";
+        document.getElementById("descricao").innerHTML = "Você acaba esquecendo o creme no fogo, que acaba queimando. Você decide deixar a ideia pra outro dia.";
         document.getElementById("alt1").style.display = "none";
         document.getElementById("alt2").style.display = "none";
         document.getElementById("alt3").style.display = "none";
