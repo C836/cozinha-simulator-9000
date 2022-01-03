@@ -68,9 +68,9 @@ function fase2(){
 
 function fase3(){
     document.getElementById("fase").innerHTML = "FASE 3";
-    document.getElementById("descricao").innerHTML = "Após ficar consistente, o que fazer a seguir?" 
-    document.getElementById("alt1").innerHTML = "A - Adicionar o chocolate ao creme"
-    document.getElementById("alt2").innerHTML = "B - Misturar leite condensado com um pouco de margarina e o chocolate"
+    document.getElementById("descricao").innerHTML = "Após ficar consistente, como preparar o segundo creme?" 
+    document.getElementById("alt1").innerHTML = "A - Adicionar o chocolate ao outro creme"
+    document.getElementById("alt2").innerHTML = "B - Misturar leite condensado com um pouco de margarina e chocolate"
     document.getElementById("alt3").innerHTML = "C - Misturar o leite condensado com o chocolate e deixar no fogo"
     document.getElementById("imagem").src="imagens/a4.jpg"
 
