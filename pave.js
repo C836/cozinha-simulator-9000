@@ -68,11 +68,11 @@ function fase2(){
 
 function fase3(){
     document.getElementById("fase").innerHTML = "FASE 3";
-    document.getElementById("descricao").innerHTML = "Após deixar a massa consistente, qual será o próximo passo?" 
-    document.getElementById("alt1").innerHTML = "A - Adicionar o chocolate à massa"
-    document.getElementById("alt2").innerHTML = "B - Misturar o resto do leite condensado com um pouco de margarina e o chocolate"
-    document.getElementById("alt3").innerHTML = "C - Deixar no fogo por mais alguns minutos"
-    document.getElementById("imagem").src="imagens/p4.png"
+    document.getElementById("descricao").innerHTML = "Após ficar consistente, o que fazer a seguir?" 
+    document.getElementById("alt1").innerHTML = "A - Adicionar o chocolate ao creme"
+    document.getElementById("alt2").innerHTML = "B - Misturar leite condensado com um pouco de margarina e o chocolate"
+    document.getElementById("alt3").innerHTML = "C - Misturar o leite condensado com o chocolate e deixar no fogo"
+    document.getElementById("imagem").src="imagens/a4.jpg"
 
     setTimeout(function () {
         var escolha3 = prompt("Digite sua alternativa (A, B ou C)");
@@ -87,7 +87,7 @@ function fase3(){
         document.getElementById("imagem").src="imagens/af4.png"}
     if (escolha3.toUpperCase() == "C".toUpperCase() || escolha3.toUpperCase() == "B".toUpperCase()){
         document.getElementById("fase").innerHTML = "FIM DE JOGO";
-        document.getElementById("descricao").innerHTML = "Você acaba esquecendo sua massa no fogo, que acaba queimando. Você decide deixar a ideia pra outro dia.";
+        document.getElementById("descricao").innerHTML = "Você acaba esquecendo p creme no fogo, que acaba queimando. Você decide deixar a ideia pra outro dia.";
         document.getElementById("alt1").style.display = "none";
         document.getElementById("alt2").style.display = "none";
         document.getElementById("alt3").style.display = "none";
