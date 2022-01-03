@@ -22,7 +22,7 @@ body{
         font-size: 45px;
         font-weight: 600;
         color: white;
-        -webkit-text-stroke: 2px black;
+        
         text-shadow: 1px 1px 8px black;
     }
 
@@ -106,8 +106,8 @@ body{
             transform: scale(1.05);
         }
         #e3{
-            background-image: url(imagens/backBurguer.png);
-            background-color: rgb(197, 136, 56);
+            background-image: url(imagens/backPave.png);
+            background-color: rgb(255, 158, 158);
         }
         #e3:hover{
             transform: scale(1.05);
@@ -147,7 +147,7 @@ img{
     margin: 18px;
     margin-top: 0px;
     font-family: 'dosis';
-    font-size: 24px;
+    font-size: 21px;
     line-height: 30px;
 }
 #alternativas{
@@ -174,15 +174,4 @@ a{
 }
 #voltar{
     display: none;
-}
-#burgCamadas{
-    display: none;
-    margin:10px;
-    height: 45vh;
-    margin-top: 18%;
-}
-.item{
-    position: relative;
-    margin: -11.5% auto;
-    width: 30%;
 }
