@@ -107,7 +107,7 @@ body{
         }
         #e3{
             background-image: url(imagens/backPave.png);
-            background-color: rgb(255, 158, 158);
+            background-color: #bd7837
         }
         #e3:hover{
             transform: scale(1.05);
