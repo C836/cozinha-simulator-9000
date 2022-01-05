@@ -196,5 +196,15 @@ a{
         align-items: center;
         margin-top: 470px;
     }
+    #descricao{
+        font-size: 3vh;
+        line-height: 4.5vh;
+    }
+    .alternativa{
+        border-radius: 15px;
+        padding: 2.8vh 0;
+        font-family: 'dosis';
+        font-size: 2.8vh;
+    
     
 }
