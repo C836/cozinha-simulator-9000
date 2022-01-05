@@ -5,8 +5,8 @@ body{
     background-color: black;
 }
 #background{
+    height: 100%;
     width: 100%;
-    height: auto;
     position:fixed;
     bottom:0px;
     opacity: 0.80;
@@ -117,7 +117,7 @@ body{
     height: 60%;
     background-color: pink;
     vertical-align: bottom;
-    position: fixed;
+    position: absolute;
     bottom: 25%;
     left: 4%;
     border: white 10px solid;
@@ -137,18 +137,20 @@ img{
     top: 7%;
     right: 4%;
     text-align: center;
-}
+} 
+
 #fase{
     font-family: 'Fredoka One';
-    font-size: 50px;
-    padding: 30px;
+    margin-top: 2vh;
+    font-size: 6vh;
+    padding: 2vh
 }
 #descricao{
-    margin: 18px;
+    margin: 20px;
     margin-top: 0px;
     font-family: 'dosis';
-    font-size: 21px;
-    line-height: 30px;
+    font-size: 4vh;
+    line-height: 6vh;
 }
 #alternativas{
     position: absolute;
@@ -157,16 +159,17 @@ img{
     flex-direction: column;
     bottom: 0;
     text-align: center;
-    font-size: 18px;
+    font-size: 3.5vh;
 
 }
 .alternativa{
     background-color: rgba(0, 0, 0, 0.5);
     margin: 10px;
     border-radius: 15px;
-    padding: 5% 0;
+    padding: 3.5vh 0;
     font-family: 'dosis';
-    font-size: 20px;
+    font-size: 3.5vh;
+
 }
 a{
     text-decoration: none;
@@ -174,4 +177,14 @@ a{
 }
 #voltar{
     display: none;
+    
+} #clique{height: 100%; width: 100%; z-index:1; position: relative;}
+
+@media (max-width: 700px){
+    #caixaTexto , #caixaTextoOff{
+        width: 92%;
+    }
+    #ilustracao{
+        display: none;
+    }
 }
