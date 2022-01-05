@@ -16,13 +16,11 @@ body{
     text-align: center;
 }
     h1{
-
         padding: 15px;
         font-family: 'Dosis', sans-serif;
         font-size: 45px;
         font-weight: 600;
         color: white;
-        
         text-shadow: 1px 1px 8px black;
     }
 
@@ -42,12 +40,10 @@ body{
     margin: 0 auto;
     width: 85%;
     height: 500px;
-    flex-direction: row;
     justify-content: space-evenly;
 }
     .escolhas{
         text-align: center;
-        flex-direction: column;
         margin: auto 0;
         width: 250px;
         height: 420px;
@@ -187,4 +183,18 @@ a{
     #ilustracao{
         display: none;
     }
+    .introBox{
+        font-size: 18px;
+        width: 80%;
+        font-weight: 500;
+    }
+    h1{
+        font-size: 35px;
+    }
+    #caixasEscolhas{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 470px;
+    }
+    
 }

@@ -2,7 +2,6 @@ document.onload = setTimeout(function () {
     alert('Clique na tela para selecionar as alternativas');
     document.getElementById("alternativas").style.display = "flex";
     document.getElementById("descricao").innerHTML = "Você vai correndo para o mercado para fazer as compras e percebe que você esqueceu de um ingrediente! Qual dos itens a seguir está faltando?"
-
     document.getElementById("alt1").innerHTML = "A - Água"
     document.getElementById("alt2").innerHTML = "B - Leite condensado"
     document.getElementById("alt3").innerHTML = "C - Fermento"
@@ -84,6 +83,7 @@ function fim(){
     document.getElementById("fase").innerHTML = "FIM";
     document.getElementById("descricao").innerHTML = "Depois de deixar a massa esfriar você começa a enrolar seus doces em bolinhas. Após isso, passa tudo no chocolate granulado e está pronto, parabéns! Aproveite seus brigadeiros" 
     document.getElementById("imagem").src="imagens/cfim.png"
+        limpar()
 } 
 
 function limpar(){
