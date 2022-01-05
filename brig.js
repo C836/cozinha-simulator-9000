@@ -18,7 +18,7 @@ function fase1(){
         document.getElementById("fase").innerHTML = "FIM DE JOGO";
         document.getElementById("descricao").innerHTML = "Você chega em casa e percebe que está faltando um dos itens da lista. Já que você não tem tanta experiência na cozinha, decide deixar a ideia pra outro dia.";
         document.getElementById("imagem").src="imagens/cf2.jpg"
-        limpar()
+            limpar()
     } else if (escolha.toUpperCase() == "B".toUpperCase()){
         fase2();
     } else {
