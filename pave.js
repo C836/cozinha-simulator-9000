@@ -81,8 +81,8 @@ function fase3(){
 
 function fase4(){
     document.getElementById("fase").innerHTML = "FASE 4";
-    document.getElementById("descricao").innerHTML = 'E por fim...'
-    document.getElementById("alt1").innerHTML = "A - Levar ao fogo novamente"
+    document.getElementById("descricao").innerHTML = 'E para terminar o segundo creme...'
+    document.getElementById("alt1").innerHTML = "A - Levar ao fogo"
     document.getElementById("alt2").innerHTML = "B - Começar a montar!"
     document.getElementById("alt3").innerHTML = "C - Deixar na geladeira por 1 hora"
     document.getElementById("imagem").src="imagens/a4.png"
