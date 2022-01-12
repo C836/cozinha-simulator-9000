@@ -108,7 +108,7 @@ function fase4(){
 
 function fim(){
     document.getElementById("fase").innerHTML = "FIM";
-    document.getElementById("descricao").innerHTML = "Você termina de montar com os cremes, os biscoitos e raspas de chocolate para decorar. Após deixar no congelador por algumas horas... Seu pavê de chocolate está pronto!" 
+    document.getElementById("descricao").innerHTML = "Após terminar as duas camadas, você termina de montar com os cremes, os biscoitos e raspas de chocolate para decorar. Após deixar no congelador por algumas horas... Seu pavê de chocolate está pronto!" 
     document.getElementById("imagem").src="imagens/afim.jpg"
         limpar()
 } 
