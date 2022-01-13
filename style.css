@@ -93,6 +93,7 @@ body{
         }
         #e1:hover{
             transform: scale(1.05);
+            transition-duration: 0.3s
         }
         #e2{
             background-image: url(imagens/backPizza.png);
@@ -100,6 +101,7 @@ body{
         }
         #e2:hover{
             transform: scale(1.05);
+            transition-duration: 0.3s
         }
         #e3{
             background-image: url(imagens/backPave.png);
@@ -107,6 +109,7 @@ body{
         }
         #e3:hover{
             transform: scale(1.05);
+            transition-duration: 0.3s
         }
 #ilustracao{
     width: 47%;
