@@ -1,51 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">  
-    <link rel="stylesheet" href="style.css">  
-    <link rel="icon" href="imagens/iconBrig.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/iconBrig.png"> 
     <title>Cozinha 9000</title>
 </head>
+
 <body>
-    
-<span id="menuInicial">
-    <img id="background" src="imagens/backPageCozinha.jpg">
-    <div class="textos">
-        <h1 id="titulo">SIMULADOR DE COZINHA 9000 v8.36!!!</h1>
+
+    <span id="menuInicial">
+        <img id="background" src="imagens/backPageCozinha.jpg">
+        <div class="textos">
+            <h1 id="titulo">SIMULADOR DE COZINHA 9000 v8.36!!!</h1>
             <div class=introBox>
-            <p>Olá! Seja muito bem vindo ao <span style= font-style:italic;font-weight:500>SIMULADOR DE COZINHA 9000 v8.36.</span></p>
-            <p>Seu objetivo é acertar a sequencia de passos correta para terminar sua receita. Faça suas decisões pela caixa de texto superior, respondendo com o número da alternativa. Você terá 3 opções de dificuldade. </br> Escolha a receita que você mais gostar e boa sorte!</p>
+                <p>Olá! Seja muito bem-vindo ao <span style=font-style:italic;font-weight:500>SIMULADOR DE COZINHA 9000 v8.36.</span></p>
+
+                <p>Seu objetivo é acertar a sequência de passos correta para terminar sua receita. Faça suas decisões
+                    pela caixa de texto superior, respondendo com o número da alternativa. Você terá 3 opções de
+                    dificuldade. 
+                </br> Escolha a receita que você mais gostar e boa sorte!</p>
             </div>
-    </div>
+        </div>
 
-    <div id=caixasEscolhas>
-        <a href="brig.html"><div class=escolhas id="e1">
-            <p id= nome style = font-size:38px;margin-top:21px>Brigadeiro</p>
-                <div id=borda>
-                    <img id=icon src="imagens/iconBrig.png"></div>
-            <p id= lvl>Nível</p>
-            <p id= diff>Fácil</p>
-        </div></a>
-        
-        <a href="pave.html"><div class=escolhas id="e3">
-            <p id= nome>Pavê</p>
-                <div id=borda><img id=icon src="imagens/iconPave.png"></div>
-            <p id= lvl>Nível</p>
-            <p id= diff>Médio</p>
-        </div></a>
+        <div id=caixasEscolhas>
+            <a href="fase1/brig.html">
+                <div class=escolhas id="e1">
+                    <p id=nome style=font-size:38px;margin-top:21px>Brigadeiro</p>
+                    <div id=borda>
+                        <img id=icon src="imagens/iconBrig.png">
+                    </div>
+                    <p id=lvl>Nível</p>
+                    <p id=diff>Fácil</p>
+                </div>
+            </a>
 
-        <a href="pizza.html"><div class=escolhas id="e2">
-            <p id= nome>Pizza</p>
-                <div id=borda><img id=icon src="imagens/iconPizza.png"></div>
-            <p id= lvl>Nível</p>
-            <p id= diff>Difícil</p>
-        </div></a>
-    </div>
-</span> <div id="clique"></div>
+            <a href="fase2/pave.html">
+                <div class=escolhas id="e3">
+                    <p id=nome>Pavê</p>
+                    <div id=borda><img id=icon src="imagens/iconPave.png"></div>
+                    <p id=lvl>Nível</p>
+                    <p id=diff>Médio</p>
+                </div>
+            </a>
+
+            <a href="fase3/pizza.html">
+                <div class=escolhas id="e2">
+                    <p id=nome>Pizza</p>
+                    <div id=borda><img id=icon src="imagens/iconPizza.png"></div>
+                    <p id=lvl>Nível</p>
+                    <p id=diff>Difícil</p>
+                </div>
+            </a>
+        </div>
+    </span>
+    <div id="clique"></div>
 </body>
 
-<script src="script.js"></script>
 </html>

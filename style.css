@@ -1,30 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&display=swap');
 
-body{
+body {
     background-color: black;
 }
-#background{
+
+#background {
     height: 100%;
     width: 100%;
-    position:fixed;
-    bottom:0px;
+    position: fixed;
+    bottom: 0px;
     opacity: 0.80;
     z-index: -5;
 }
-.textos{
+
+.textos {
     text-align: center;
 }
-    h1{
-        padding: 15px;
-        font-family: 'Dosis', sans-serif;
-        font-size: 45px;
-        font-weight: 600;
-        color: white;
-        text-shadow: 1px 1px 8px black;
-    }
 
-.introBox{
+h1 {
+    padding: 15px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 8px black;
+}
+
+.introBox {
     width: 800px;
     text-align: center;
     position: relative;
@@ -35,83 +38,112 @@ body{
     font-weight: 400;
     font-family: 'Dosis', sans-serif;
 }
-#caixasEscolhas{
+
+#lista{
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+#lista2{
+    line-height: 5vh;
+    margin-top: 17px;
+    font-size: 3.5vh;
+}
+
+#lista3{
+    line-height: 7vh;
+    margin-top: 20px;
+}
+
+#caixasEscolhas {
     display: flex;
     margin: 0 auto;
     width: 85%;
     height: 500px;
     justify-content: space-evenly;
 }
-    .escolhas{
-        text-align: center;
-        margin: auto 0;
-        width: 250px;
-        height: 420px;
-        color: white;
-        background-color: #694838;
-        font-family: 'Fredoka One';
-        background-image: url("imagens/backBrig.png");
-        background-size: cover;
-        object-fit: scale-down;
-        border-radius: 40px;
-        border: 10px solid rgb(255, 255, 255) ;
-        -webkit-text-stroke: 2px black;
-        box-shadow: 0 0 20px black;
-    }
-        #nome{
-            font-size: 60px;
-            padding: 30px;
-        }
-        #borda{
-            position: relative;
-            display: inline-block;
-            background-color: white;
-            width: 180px;
-            height: 180px;
-            border: 4px dotted black ;
-            align-content: center;
-            margin-top: 10px;
-            justify-content: center;
-            border-radius: 50%;
-        }
-            #icon{
-                position: absolute;
-                margin: auto;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                width: 140px;
-                height: 140px;
-            }
-        #lvl{
-            font-size: 25px;
-            padding: 10px;
-        }
-        #diff{
-            font-size: 40px;
-        }
-        #e1:hover{
-            transform: scale(1.05);
-            transition-duration: 0.3s
-        }
-        #e2{
-            background-image: url(imagens/backPizza.png);
-            background-color: #c8a444;
-        }
-        #e2:hover{
-            transform: scale(1.05);
-            transition-duration: 0.3s
-        }
-        #e3{
-            background-image: url(imagens/backPave.png);
-            background-color: #bd7837
-        }
-        #e3:hover{
-            transform: scale(1.05);
-            transition-duration: 0.3s
-        }
-#ilustracao{
+
+.escolhas {
+    text-align: center;
+    margin: auto 0;
+    width: 250px;
+    height: 420px;
+    color: white;
+    background-color: #694838;
+    font-family: 'Fredoka One';
+    background-image: url("imagens/backBrig.png");
+    background-size: cover;
+    object-fit: scale-down;
+    border-radius: 40px;
+    border: 10px solid rgb(255, 255, 255);
+    -webkit-text-stroke: 2px black;
+    box-shadow: 0 0 20px black;
+}
+
+#nome {
+    font-size: 60px;
+    padding: 30px;
+}
+
+#borda {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    border: 4px dotted black;
+    align-content: center;
+    margin-top: 10px;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#icon {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 140px;
+    height: 140px;
+}
+
+#lvl {
+    font-size: 25px;
+    padding: 10px;
+}
+
+#diff {
+    font-size: 40px;
+}
+
+#e1:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s
+}
+
+#e2 {
+    background-image: url(imagens/backPizza.png);
+    background-color: #c8a444;
+}
+
+#e2:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s
+}
+
+#e3 {
+    background-image: url(imagens/backPave.png);
+    background-color: #bd7837
+}
+
+#e3:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s
+}
+
+#ilustracao {
     width: 47%;
     height: 60%;
     background-color: pink;
@@ -121,12 +153,14 @@ body{
     left: 4%;
     border: white 10px solid;
 }
-img{
+
+img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-#caixaTexto{
+
+#caixaTexto {
     color: white;
     width: 40%;
     height: 85%;
@@ -136,22 +170,24 @@ img{
     top: 7%;
     right: 4%;
     text-align: center;
-} 
+}
 
-#fase{
+#fase {
     font-family: 'Fredoka One';
     margin-top: 2vh;
     font-size: 6vh;
     padding: 2vh
 }
-#descricao{
+
+#descricao {
     margin: 20px;
     margin-top: 0px;
     font-family: 'dosis';
     font-size: 4vh;
     line-height: 6vh;
 }
-#alternativas{
+
+#alternativas {
     position: absolute;
     display: none;
     width: 100%;
@@ -161,7 +197,8 @@ img{
     font-size: 3.5vh;
 
 }
-.alternativa{
+
+.alternativa {
     background-color: rgba(0, 0, 0, 0.5);
     margin: 10px;
     border-radius: 15px;
@@ -170,44 +207,58 @@ img{
     font-size: 3.5vh;
 
 }
-a{
+
+a {
     text-decoration: none;
     margin-top: 30px;
 }
-#voltar{
-    display: none;
-    
-} #clique{height: 100%; width: 100%; z-index:1; position: relative;}
 
-@media (max-width: 700px){
-    #caixaTexto , #caixaTextoOff{
+#voltar {
+    display: none;
+
+}
+
+#clique {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+@media (max-width: 700px) {
+    #caixaTexto, #caixaTextoOff {
         width: 92%;
     }
-    #ilustracao{
+
+    #ilustracao {
         display: none;
     }
-    .introBox{
+
+    .introBox {
         font-size: 18px;
         width: 80%;
         font-weight: 500;
     }
-    h1{
+
+    h1 {
         font-size: 35px;
     }
-    #caixasEscolhas{
+
+    #caixasEscolhas {
         flex-direction: column;
         align-items: center;
         margin-top: 470px;
     }
-    #descricao{
+
+    #descricao {
         font-size: 3vh;
         line-height: 4.5vh;
     }
-    .alternativa{
+
+    .alternativa {
         border-radius: 15px;
         padding: 2.8vh 0;
         font-family: 'dosis';
         font-size: 2.8vh;
-    
-    
+    }
 }
